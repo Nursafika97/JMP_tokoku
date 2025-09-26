@@ -2,15 +2,23 @@
 
 A new Flutter project.
 
-## Getting Started
+## 📌 Deskripsi Project (README)
 
-This project is a starting point for a Flutter application.
+TokoKu adalah aplikasi Flutter dengan backend PHP & MySQL untuk mencatat belanja harian.
+Aplikasi ini memiliki fitur:
 
-A few resources to get you started if this is your first Flutter project:
+Splash screen & login sederhana
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Tambah, edit, hapus catatan belanja
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Catatan berisi judul, isi, lokasi (GPS), alamat, dan foto
+
+Data tersimpan di database MySQL melalui REST API (PHP)
+
+Repo ini mencakup:
+
+📱 Flutter App → folder utama (frontend)
+
+🌐 API PHP → folder api (backend, diletakkan di server/htdocs)
+
+🗄️ Database → file SQL untuk import ke MySQL
