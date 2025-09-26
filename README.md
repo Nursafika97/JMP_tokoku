@@ -13,6 +13,6 @@ Aplikasi ini memiliki fitur:
 4. Data tersimpan di database MySQL melalui REST API (PHP)
 
 Repo ini mencakup:
-📱 Flutter App → folder utama (frontend)
-🌐 API PHP → folder api (backend, diletakkan di server/htdocs)
-🗄️ Database → file SQL untuk import ke MySQL
+- 📱 Flutter App → folder utama (frontend)
+- 🌐 API PHP → folder api (backend, diletakkan di server/htdocs)
+- 🗄️ Database → file SQL untuk import ke MySQL
